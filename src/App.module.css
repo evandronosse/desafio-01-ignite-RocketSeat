@@ -1,0 +1,102 @@
+html {
+  background: var(--gray-600);
+}
+
+.content {
+  box-sizing: border-box;
+
+  background: var(--gray-600);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addNewTask {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  left: calc(50% -45.5rem / 2);
+}
+.addNewTask input {
+  width: 39.875rem;
+  height: 3.375rem;
+
+  border-radius: 8px;
+
+  background: var(--gray-500);
+  border: 0.0625rem solid var(--gray-700);
+  color: var(--white);
+  padding-left: 1rem;
+}
+.addNewTask button {
+  width: 5.625rem;
+  height: 3.25rem;
+  border: none;
+  border-radius: 8px;
+
+  background: var(--blueDark);
+  color: var(--white);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  cursor: pointer;
+}
+.tasks {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.subMenu {
+  position: absolute;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  width: 46rem;
+  height: 1.1875rem;
+
+  top: 18.1875rem;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.subMenu p {
+  display: flex;
+  gap: 0.5rem;
+}
+.itemCountText {
+  color: var(--blue);
+}
+.itemCount {
+  background: var(--gray-400);
+  border-radius: 30rem;
+  width: 1.5625rem;
+  height: 1.1875rem;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxTasks {
+  box-sizing: border-box;
+
+  border-top: 0.075rem solid var(--gray-400);
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 16px;
+}
